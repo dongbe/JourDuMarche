@@ -7,6 +7,7 @@ angular.module('jourdumarcheApp')
       'link': '/'
     }];
 
+    $scope.nbArticle=0;
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;
     $scope.isAdmin = Auth.isAdmin;
