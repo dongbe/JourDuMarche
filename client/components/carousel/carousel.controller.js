@@ -10,7 +10,7 @@ angular.module('jourdumarcheApp')
       'link': '/'
     }];
 
-    $scope.myInterval = 5000;
+    $scope.myInterval = 25000;
     $scope.slides = [
       {image: 'assets/images/img1.jpg',text: 'Kitten.'},
       {image: 'assets/images/img2.jpg',text: 'Kitty!'},
