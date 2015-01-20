@@ -8,6 +8,7 @@ angular.module('jourdumarcheApp')
     }];
 
     $scope.isCollapsed = true;
+    $scope.isAdmin = Auth.isAdmin;
 
     $scope.isActive = function(route) {
       return route === $location.path();
