@@ -1579,3 +1579,6 @@
 2015-01-25T14:29:07.336+0100 [clientcursormon] mem (MB) res:34 virt:2980
 2015-01-25T14:29:07.336+0100 [clientcursormon]  mapped (incl journal view):480
 2015-01-25T14:29:07.336+0100 [clientcursormon]  connections:10
+2015-01-25T14:34:07.584+0100 [clientcursormon] mem (MB) res:34 virt:2980
+2015-01-25T14:34:07.584+0100 [clientcursormon]  mapped (incl journal view):480
+2015-01-25T14:34:07.584+0100 [clientcursormon]  connections:10
