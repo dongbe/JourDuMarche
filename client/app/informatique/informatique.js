@@ -6,5 +6,9 @@ angular.module('jourdumarcheApp')
       .when('/informatique', {
         templateUrl: 'app/informatique/informatique.html',
         controller: 'InformatiqueCtrl'
-      });
+      })
+    .when('/informatique/merci', {
+      templateUrl: 'app/informatique/informatique.html',
+      controller: 'InformatiqueCtrl'
+    });
   });

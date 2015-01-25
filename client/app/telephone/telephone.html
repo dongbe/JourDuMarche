@@ -1,4 +1,53 @@
+<script src="bower_components/holderjs/holder.js"></script>
 <div ng-include="'components/navbar/navbar.html'"></div>
-<div class="col-md-12">
-This is the telephone view.
+<div class="container" ng-controller="InformatiqueCtrl">
+  <div class="row">
+    <div ng-include="'components/filterbar/filterbar.html'"></div>
+    <div>
+      <table>
+        <tr ng-repeat="i in [1,2,3,4]">
+          <td>
+            <div class="thumbnail">
+              <a href="/"><img data-src="holder.js/180x180" alt="...">
+                <div class="caption">
+
+                </div></a>
+            </div>
+          </td>
+          <td>
+            <div class="thumbnail">
+              <a href="/"><img data-src="holder.js/180x180" alt="...">
+                <div class="caption">
+
+                </div></a>
+            </div>
+          </td>
+          <td>
+            <div class="thumbnail">
+              <a href="/"><img data-src="holder.js/180x180" alt="...">
+                <div class="caption">
+
+                </div></a>
+            </div>
+          </td>
+          <td>
+            <div class="thumbnail">
+              <a href="/"><img data-src="holder.js/180x180" alt="...">
+                <div class="caption">
+
+                </div></a>
+            </div>
+          </td>
+          <td>
+            <div class="thumbnail">
+              <a href="/"><img data-src="holder.js/180x180" alt="...">
+                <div class="caption">
+
+                </div></a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </div>
